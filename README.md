@@ -4,9 +4,14 @@ This README outlines the steps for setting up a custom firmware for the Ender 3 
 
 ## Overview
 
+This guide is for a printer running clipper and a pi running mainsail
+
 The BTT SKR Mini E3 V3.0 mainboard provided for the Ender 3 V2 Neo comes with a STM32G0B0 processor, instead of the commonly used STM32G0B1. This requires a custom firmware setup using Klipper. The following steps will guide you through creating a custom firmware, modifying the printer configuration, and setting up the CR Touch sensor.
 
-## Prerequisites
+*Start with BTT's official page for the board: https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/tree/master
+and this guys stuff: https://github.com/LeeOtts/Ender3v2-Klipper-Configs
+
+## My Hardware
 
 - Ender 3 V2 Neo 3D Printer
 - BTT SKR Mini E3 V3.0 with STM32G0B0 processor
